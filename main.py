@@ -18,6 +18,8 @@ class MiniCalculator:
         
         # Assigning the value of the result variable to be equal to the sum of num1 and num2
         self.result = num1 + num2
+								# We are returning the value of the result field(variable)
+        return self.result
         
         
     # Defining a function to subtract the 2 numbers gotten above
@@ -25,6 +27,7 @@ class MiniCalculator:
         
         # Assigning the value of the result variable to be equal to the difference between num1 and num2
         self.result = num1 - num2
+        return self.result
        
         
         
@@ -42,8 +45,7 @@ second_num = int(input("Enter another number: "))
 # We then store it in a reference variable(calc)
 calc = MiniCalculator()
 
-response = int(input('''1. Addition\n
-                        2. Subtration'''))
+response = int(input("1. Addition\n2. Subtration\nChoose your operator: "))
 
 # Here the code will react based on the response of the user
 if (response == 1):
@@ -53,7 +55,8 @@ if (response == 1):
 elif (response == 2):
     answer = calc.subtract_numbers(first_num, second_num)
 else:
-    print("Choice out of range") # If the user enters a value other than 1 or 2
+    print("Choice out of range!") # If the user enters a value other than 1 or 2
+				quit()
 
 
 # Displaying the value of answer
