@@ -18,7 +18,7 @@ class MiniCalculator:
         
         # Assigning the value of the result variable to be equal to the sum of num1 and num2
         self.result = num1 + num2
-								# We are returning the value of the result field(variable)
+	# We are returning the value of the result field(variable)
         return self.result
         
         
