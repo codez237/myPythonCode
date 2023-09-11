@@ -56,7 +56,7 @@ elif (response == 2):
     answer = calc.subtract_numbers(first_num, second_num)
 else:
     print("Choice out of range!") # If the user enters a value other than 1 or 2
-				quit()
+	quit()
 
 
 # Displaying the value of answer
