@@ -18,7 +18,7 @@ class MiniCalculator:
         
         # Assigning the value of the result variable to be equal to the sum of num1 and num2
         self.result = num1 + num2
-	# We are returning the value of the result field(variable)
+	    # We are returning the value of the result field(variable)
         return self.result
         
         
@@ -56,11 +56,11 @@ elif (response == 2):
     answer = calc.subtract_numbers(first_num, second_num)
 else:
     print("Choice out of range!") # If the user enters a value other than 1 or 2
-	quit()
+    quit()
 
 
 # Displaying the value of answer
-print("Result: " + answer)
+print("Result: ", answer)
 
 # So this is a small overview of OOP in python.
 # Thank you!
