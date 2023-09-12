@@ -18,7 +18,7 @@ class MiniCalculator:
         
         # Assigning the value of the result variable to be equal to the sum of num1 and num2
         self.result = num1 + num2
-	    # We are returning the value of the result field(variable)
+	# We are returning the value of the result field(variable)
         return self.result
         
         
@@ -34,9 +34,9 @@ class MiniCalculator:
 print(" Hello, and Welcome to my Mini Calculator!")
 
 # Creating two fields(variables)
-# presizing the data types using the "int()" method
+# Converting the data types of their values using the "int()" method
 # And getting their values using the "input()" method
-# A method in OOP is what we call a function in programming. So, don't be confused
+# A method, in OOP is what we call a function in programming. So, don't be confused
 # NB: you use the "self" parameter so that the variable can be accessible from anywhere in the code
 first_num = int(input("Enter a number: "))
 second_num = int(input("Enter another number: "))
@@ -64,4 +64,6 @@ print("Result: ", answer)
 
 # So this is a small overview of OOP in python.
 # Thank you!
+
+# By codeZ
         
