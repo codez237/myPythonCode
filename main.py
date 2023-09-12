@@ -13,7 +13,7 @@ class MiniCalculator:
         # i.e (self.variable_name)
         self.result = 0
         
-    # Defining a function to add the 2 numbers gotten above
+    # Defining a function to add the 2 parameters 
     def add_numbers(self, num1, num2):
         
         # Assigning the value of the result variable to be equal to the sum of num1 and num2
@@ -22,7 +22,7 @@ class MiniCalculator:
         return self.result
         
         
-    # Defining a function to subtract the 2 numbers gotten above
+    # Defining a function to subtract the 2 parameters 
     def subtract_numbers(self, num1, num2):
         
         # Assigning the value of the result variable to be equal to the difference between num1 and num2
